@@ -1,0 +1,79 @@
+:root {
+  --wall-color: #000000;
+  --path-color: #ffffff;
+  --start-color: #009168;
+  --end-color: #ff0000;
+  --visited-color: #17c1b0;
+}
+
+
+.cell {
+  border: 1px solid rgba(217, 217, 217, 0.43);
+  width: 14px;
+  height: 14px;
+  color: #009168;
+  text-align: center;
+}
+
+.cell.wall {
+  border: 1px solid rgba(79, 79, 79, 0.43);
+  background-color: var(--wall-color);
+  ;
+}
+
+.cell.path {
+  background-color: var(--path-color);
+  ;
+}
+
+.cell.start {
+  background-color: var(--start-color);
+  ;
+}
+
+.cell.end {
+  background-color: var(--end-color);
+  ;
+}
+
+.cell.visited {
+  border: 1px solid rgba(85, 140, 61, 0.252);
+  background-color: var(--visited-color);
+  ;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.maze {}
+
+.maze-grid {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.maze-btn {
+  background-color: rgb(79, 117, 241);
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.maze-btn:hover {
+  filter: brightness(110%);
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
