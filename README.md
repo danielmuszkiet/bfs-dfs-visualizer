@@ -13,9 +13,6 @@ These algorithms are widely used in computer science and are fundamental in unde
   Customizable Settings: Users can adjust parameters such as graph size.
 - Educational Tool: This tool is designed not only for experienced programmers but also for beginners learning about graph algorithms. The visual representation enhances understanding by providing a clear illustration of how these algorithms explore graphs.
 
-## Usage
+## Pages:
+https://danielmuszkiet.github.io/bfs-dfs-visualizer/
 
-1. clone repo
-2. npm install
-3. npm run dev
-4. Type o press Enter
